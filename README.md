@@ -1,6 +1,3 @@
-###Bonus - Earn $15 Amazon gift card
-www.G2crowd.com is asking for some reviews of Openshift, and filling in the [survey](https://www.g2crowd.com/contributor/openshift-15-e?rewards=true&utm_source=KL&utm_medium=gmail&utm_campaign=LP_15) can get you a gift card.
-
 Django OpenShift v2
 =
 This git repository helps you get up and running quickly with django v1.7+ and Openshift.
@@ -36,7 +33,7 @@ rhc add-cartridge mysql-5.5 --app django
 - Add this upstream repo
 ```
 cd django
-git remote add upstream -m master https://github.com/jfmatth/openshift-django.git
+git remote add upstream -m master https://github.com/awwong1/openshift-django.git
 git pull -s recursive -X theirs upstream master
 ```
 - set the WSGI application to django's built in WSGI application (stored in the wsgi folder).
